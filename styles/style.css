@@ -24,6 +24,15 @@ body {
     max-width: 700px;
 }
 
+.hero-eyebrow {
+    color: #cbd5e1;
+    font-size: 0.95rem;
+    font-weight: bold;
+    letter-spacing: 0,08rem;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
 .navbar-logo {
     height: 55px;
     width: auto;
@@ -33,6 +42,54 @@ body {
 .navbar-nav .nav-link {
     display: flex;
     align-items: center;
+}
+
+.card-link {
+    color: #2E2E2E;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.card-link:hover {
+    text-decoration: underline;
+}
+
+.process-section {
+    margin-top: 60px;
+}
+
+.process-step {
+    background-color: #1f1f1f;
+    color: #F5F5F5;
+    padding: 25px;
+    border-radius: 14px;
+    height: 100%;
+    border: 1px solid rgba(245, 245, 245, 0.15);
+}
+
+.process-step h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.process-step p {
+    margin-bottom: 0;
+}
+
+.cta-section {
+    background:
+        radial-gradient(circle at top left, rgba(245, 245, 245, 0.08), transparent 30%),
+        linear-gradient(135deg, #1f1f1f 0%, #2E2E2E 100%);
+    color: #F5F5F5;
+    padding: 50px 25px;
+    border-radius: 16px;
+    margin-top: 60px;
+}
+
+.cta-section p {
+    max-width: 700px;
+    margin: 15px auto 25px;
 }
 
 .service-card {
