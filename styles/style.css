@@ -1,0 +1,103 @@
+body {
+    background-color: #2E2E2E;
+    color: whitesmoke;
+    font-family: Arial, sans-serif;
+}
+
+.hero-section {
+    background:
+        radial-gradient(circle at bottom left, rgba(245, 245, 245, 0.08), transparent 30%),
+        linear-gradient(135deg, #2E2E2E 0%, #1f1f1f 50%, #111827 100%);
+    color: #F5F5F5;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.25rem;
+    margin: 20px auto;
+    max-width: 700px;
+}
+
+.navbar-logo {
+    height: 55px;
+    width: auto;
+    object-fit: contain;
+}
+
+.navbar-nav .nav-link {
+    display: flex;
+    align-items: center;
+}
+
+.service-card {
+    background-color: whitesmoke;
+    color: #2E2E2E;
+    border: none;
+    border-radius: 14px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+}
+
+.service-card h3 {
+    font-size: 1.35rem;
+    font-weight: bold;
+}
+
+.site-footer {
+    background-color: #1f1f1f;
+    color: #F5F5F5;
+    text-align: center;
+    padding: 30px 15px;
+    margin-top: 50px;
+}
+
+.footer-line {
+    border: none;
+    border-top: 1px solid #555;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.footer-links a {
+    color: #F5F5F5;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-brand {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.about-section p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+.contact-form {
+    background-color: #F5F5F5;
+    color: #2E2E2E;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+}
+
+.form-response {
+    font-weight: bold;
+    text-align: center;
+    color: #F5F5F5;
+}
+
+.hidden {
+    display: none;
+}   

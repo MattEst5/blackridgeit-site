@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contact | BlackRidge IT</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link href="styles/style.css" rel="stylesheet">
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <script src="script/script.js" defer></script>
+
+        <link rel="icon" type="image/png" href="images/RidgeMark_White.png">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="images/BlackRidge_IT_whitesmoke.png" alt="BlackRidge IT" class="navbar-logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <header class="hero-section">
+            <div class="container">
+                <h1>Contact BlackRidge IT</h1>
+                <p>Need help with your computer, backup, software issue, online presence, or monthly support? Send a quick message below.</p>
+            </div>
+        </header>
+
+        <main class="container my-5">
+            <section class="contact-section">
+                <h2 class="text-center mb-4">Request Support</h2>
+
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="contact-form" action="/thank-you.html">
+                            <input type="hidden" name="form-name" value="contact">
+
+                            <p class="hidden">
+                                <label>
+                                    Don't fill this out if you're human:
+                                    <input name="bot-field">
+                                </label>
+                            </p>
+
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" id="name" name="name" class="form-control" placeholder="Your name" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email"  name="email" class="form-control" placeholder="your@email.com" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="business" class="form-label">Business Name</label>
+                                <input type="text" id="business"  name="business" class="form-control" placeholder="Your business name">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="service" class="form-label">What do you need help with?</label>
+                                <select id="service" name="service" class="form-control">
+                                    <option value="Computer Setup">Computer Setup</option>
+                                    <option value="Backup Check">Backup Check</option>
+                                    <option value="Software Troubleshooting">Software Troubleshooting</option>
+                                    <option value="Monthly Support">Monthly Support</option>
+                                    <option value="Website">Website</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea id="message" name="message" class="form-control" rows="5" placeholder="Briefly describe the issue" required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <p class="footer-brand">BlackRidge IT</p>
+                <p>Small Business. Strong IT. Local Support.</p>
+
+                <hr class="footer-line">
+
+                <p class="footer-links">
+                    <a href="services.html">Services</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
