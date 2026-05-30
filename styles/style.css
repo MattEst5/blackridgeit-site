@@ -593,3 +593,22 @@ Responsive
     font-size: 1.05rem;
     line-height: 1.7;
 }
+
+.contact-help-box {
+    margin-top: 24px;
+}
+
+.contact-help-box h3 {
+    font-size: 1.35rem;
+    font-weight: 800;
+}
+
+.contact-help-box a {
+    color: #F5F5F5;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.contact-help-box a:hover {
+    text-decoration: underline;
+}
