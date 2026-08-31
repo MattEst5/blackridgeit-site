@@ -12,7 +12,11 @@ This site was originally built as part of CS50x's Homepage assignment and is bei
 - `services.html` - Services overview
 - `about.html` - About BlackRidge IT
 - `contact.html` - Contact and support request form
+- `work.html` - Portfolio and current development projects
+- `breaker-board-pro.html` - Breaker Board Pro SEO and pre-launch product page
 - `thank-you.html` - Form submission confirmation page
+
+Product media requirements for the Breaker Board Pro page are documented in `docs/breaker-board-pro-media.md`.
 
 ## Technologies Used
 

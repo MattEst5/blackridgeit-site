@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Breaker Board Pro is sports card breaker software for OBS team boards, fill-to-trade workflows, alerts, ticker graphics, and local-first show control.">
+
+        <title>Breaker Board Pro | OBS Overlay &amp; Team Board Software for Sports Card Breakers</title>
+
+        <link rel="canonical" href="https://blackridgeit.net/breaker-board-pro.html">
+
+        <meta property="og:site_name" content="BlackRidge IT">
+        <meta property="og:title" content="Breaker Board Pro | OBS Overlay &amp; Team Board Software">
+        <meta property="og:description" content="Local-first team boards, fill-to-trade workflow, alerts, ticker graphics, and OBS Browser Sources built for sports card breakers.">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://blackridgeit.net/breaker-board-pro.html">
+        <meta property="og:image" content="https://blackridgeit.net/images/breaker-board-pro-logo.png">
+        <meta property="og:image:width" content="700">
+        <meta property="og:image:height" content="233">
+        <meta property="og:image:alt" content="Breaker Board Pro blue, orange, silver, and gold product logo">
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Breaker Board Pro | OBS Overlay &amp; Team Board Software">
+        <meta name="twitter:description" content="Local-first team boards and broadcast graphics built for sports card breakers. Coming soon for Windows.">
+        <meta name="twitter:image" content="https://blackridgeit.net/images/breaker-board-pro-logo.png">
+        <meta name="twitter:image:alt" content="Breaker Board Pro blue, orange, silver, and gold product logo">
+
+        <link rel="icon" type="image/png" sizes="48x48" href="/images/ridgemark-favicon-48.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/images/ridgemark-favicon-96.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="/images/ridgemark-favicon-192.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/images/ridgemark-favicon-192.png">
+
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "SoftwareApplication",
+                    "@id": "https://blackridgeit.net/breaker-board-pro.html#software",
+                    "name": "Breaker Board Pro",
+                    "url": "https://blackridgeit.net/breaker-board-pro.html",
+                    "image": "https://blackridgeit.net/images/breaker-board-pro-logo.png",
+                    "description": "Local-first desktop software that gives sports card breakers a Break Desk and OBS Browser Source graphics for fill, trade, camera, and rip workflows.",
+                    "applicationCategory": "MultimediaApplication",
+                    "applicationSubCategory": "Sports card break broadcast overlay software",
+                    "operatingSystem": "Windows",
+                    "publisher": {
+                        "@type": "Organization",
+                        "name": "BlackRidge IT",
+                        "url": "https://blackridgeit.net/"
+                    },
+                    "featureList": [
+                        "OBS Browser Source graphics",
+                        "Fill Board",
+                        "Trade and Assignment Board",
+                        "Camera and Hidden modes",
+                        "Pick Your Team and externally randomized Random Team workflows",
+                        "Ticker, persistent statuses, and timed alerts",
+                        "Customer-imported Logo Packs",
+                        "CSV export, JSON backup, and local recovery"
+                    ]
+                },
+                {
+                    "@type": "FAQPage",
+                    "@id": "https://blackridgeit.net/breaker-board-pro.html#faq-data",
+                    "mainEntity": [
+                        {
+                            "@type": "Question",
+                            "name": "Does Breaker Board Pro require a subscription?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "No recurring subscription is planned for the core application. Breaker Board Pro is planned as a one-time purchase."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "Do I need an account?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "No. Breaker Board Pro is designed to run without a customer account."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "Does Breaker Board Pro work offline?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Normal use is designed to operate offline after license activation."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "Does Breaker Board Pro integrate directly with Whatnot?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "No. Whatnot runs the sale, while Breaker Board Pro runs the local board and broadcast graphics. Breaker Board Pro is not affiliated with or endorsed by Whatnot."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "Does Breaker Board Pro randomize teams?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "No. Random Team results are generated with an external randomization service and then entered into Breaker Board Pro for assignment and presentation."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "Does Breaker Board Pro include official team logos?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "No. Official league and team logos are not bundled. Customers can import their own Logo Packs and are responsible for having rights to the artwork they use."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "Do I need OBS?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "OBS or another streaming application that supports Browser Sources is needed to place Breaker Board Pro graphics on a live broadcast."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "Can I use my own logos?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Yes. Customer-created Logo Packs can use PNG, JPG, WebP, or SVG artwork. Customers are responsible for rights to imported artwork."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "Is macOS supported?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Not yet. The first commercial launch target is Windows. A macOS version is planned, but native certification is still pending."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "How will activation work?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "The launch plan uses one-time license activation. An internet connection will be needed to activate, and normal use is designed to work offline afterward. Final details will be published at launch."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        </script>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link href="styles/style.css" rel="stylesheet">
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <script src="script/script.js" defer></script>
+    </head>
+
+    <body class="bbp-page">
+        <a class="bbp-skip-link" href="#main-content">Skip to main content</a>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar" aria-label="Primary navigation">
+            <div class="container-fluid nav-shell">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img src="images/IT_clean_white.png" alt="BlackRidge IT" class="navbar-logo" width="1205" height="223">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto align-items-center">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="work.html">Work</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <header class="bbp-hero">
+            <div class="bbp-grid-texture" aria-hidden="true"></div>
+            <div class="container bbp-hero-shell">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-7">
+                        <nav class="bbp-breadcrumb" aria-label="Breadcrumb">
+                            <a href="index.html">BlackRidge IT</a>
+                            <span aria-hidden="true">/</span>
+                            <span>Products</span>
+                        </nav>
+
+                        <div class="bbp-status-row">
+                            <span class="bbp-kicker">Desktop broadcast software</span>
+                            <span class="bbp-status-pill"><span aria-hidden="true"></span> Pre-launch</span>
+                        </div>
+
+                        <img class="bbp-product-logo" src="images/breaker-board-pro-logo.png" alt="Breaker Board Pro" width="700" height="233" fetchpriority="high">
+
+                        <h1>OBS Overlay &amp; Team Board Software for Sports Card Breakers</h1>
+
+                        <p class="bbp-positioning">Whatnot runs the break. <strong>Breaker Board Pro runs the broadcast.</strong></p>
+
+                        <p class="bbp-hero-copy">
+                            Run the break from one local desk, present availability and assignments cleanly in OBS,
+                            and keep the cards and camera as the visual hero. Breaker Board Pro is built around the
+                            real fill-to-trade-to-rip workflow of sports card breakers.
+                        </p>
+
+                        <div class="bbp-hero-actions">
+                            <span class="btn bbp-btn-primary" aria-label="Breaker Board Pro is coming soon">Coming Soon</span>
+                            <a class="btn bbp-btn-secondary" href="#workflow">See How It Works</a>
+                        </div>
+
+                        <p class="bbp-affiliation-note">
+                            Breaker Board Pro is not affiliated with or endorsed by Whatnot. It does not process transactions or capture customer video.
+                        </p>
+                    </div>
+
+                    <div class="col-lg-5">
+                        <div class="bbp-hero-demo" data-media-slot="hero-portrait-fill-board">
+                            <div class="bbp-demo-header">
+                                <span>Product preview</span>
+                                <span>1080 × 1920</span>
+                            </div>
+
+                            <div class="bbp-demo-canvas" role="img" aria-label="Placeholder for a real portrait Fill Board screenshot inside an OBS scene">
+                                <span class="bbp-canvas-label">Real product capture in production</span>
+                                <img src="images/breaker-board-pro-logo.png" alt="" width="700" height="233" aria-hidden="true">
+                                <p>Portrait Fill Board in OBS</p>
+                            </div>
+
+                            <div class="bbp-demo-footer">
+                                <span>Local Break Desk</span>
+                                <span aria-hidden="true">→</span>
+                                <span>OBS Browser Source</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main id="main-content">
+            <section class="bbp-foundation" aria-label="Breaker Board Pro product fundamentals">
+                <div class="container">
+                    <div class="bbp-foundation-grid">
+                        <div>
+                            <span class="bbp-foundation-value">Local-first</span>
+                            <span class="bbp-foundation-label">Desktop control</span>
+                        </div>
+                        <div>
+                            <span class="bbp-foundation-value">No account</span>
+                            <span class="bbp-foundation-label">Required to operate</span>
+                        </div>
+                        <div>
+                            <span class="bbp-foundation-value">No core subscription</span>
+                            <span class="bbp-foundation-label">One-time purchase planned</span>
+                        </div>
+                        <div>
+                            <span class="bbp-foundation-value">OBS-ready</span>
+                            <span class="bbp-foundation-label">Browser Source workflow</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bbp-section bbp-problem-section">
+                <div class="container">
+                    <div class="row align-items-center g-5">
+                        <div class="col-lg-6">
+                            <p class="bbp-section-kicker">The broadcast layer</p>
+                            <h2>Stop rebuilding your stream every time the board changes.</h2>
+                            <p class="bbp-section-lead">
+                                A live card break already asks you to sell spots, track buyers, manage assignments, answer chat,
+                                and handle the cards. Manually editing graphics and juggling OBS scenes adds friction at the exact
+                                moment your show should feel fastest.
+                            </p>
+                            <p>
+                                Breaker Board Pro keeps show control in one place. The local Break Desk handles the board state;
+                                polished Browser Source graphics carry that state into OBS.
+                            </p>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="bbp-pain-grid">
+                                <article class="bbp-pain-card">
+                                    <span class="bbp-card-number">01</span>
+                                    <h3>Manual graphics</h3>
+                                    <p>Update availability and assignments without rebuilding image files between sales.</p>
+                                </article>
+                                <article class="bbp-pain-card">
+                                    <span class="bbp-card-number">02</span>
+                                    <h3>Cluttered layouts</h3>
+                                    <p>Use a board designed to support the broadcast while the cards and camera stay central.</p>
+                                </article>
+                                <article class="bbp-pain-card">
+                                    <span class="bbp-card-number">03</span>
+                                    <h3>Assignment juggling</h3>
+                                    <p>Move from team availability to buyer and team confirmation in a clear workflow.</p>
+                                </article>
+                                <article class="bbp-pain-card">
+                                    <span class="bbp-card-number">04</span>
+                                    <h3>Mobile-first pressure</h3>
+                                    <p>Build for the portrait canvas common to Whatnot-style sports card streams.</p>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bbp-section bbp-workflow-section" id="workflow">
+                <div class="container">
+                    <div class="bbp-section-heading">
+                        <p class="bbp-section-kicker">One show. Four clear phases.</p>
+                        <h2>Set up → Fill → Trade → Rip</h2>
+                        <p>
+                            Breaker Board Pro follows the way a break actually moves, so the operator view and the on-stream view stay in step.
+                        </p>
+                    </div>
+
+                    <ol class="bbp-workflow-list">
+                        <li>
+                            <span class="bbp-workflow-number">01</span>
+                            <div>
+                                <span class="bbp-workflow-label">Set up</span>
+                                <h3>Build or load the board.</h3>
+                                <p>Choose the sport, load a customer Logo Pack, name the break, and prepare a Pick Your Team or Random Team workflow.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="bbp-workflow-number">02</span>
+                            <div>
+                                <span class="bbp-workflow-label">Fill</span>
+                                <h3>Show what is open.</h3>
+                                <p>Mark teams or spots Available and Sold as the break fills, while the OBS board updates the audience-facing presentation.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="bbp-workflow-number">03</span>
+                            <div>
+                                <span class="bbp-workflow-label">Trade</span>
+                                <h3>Confirm who has what.</h3>
+                                <p>Move to the Trade / Assignment Board to present buyer and team assignments before the cards are opened.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="bbp-workflow-number">04</span>
+                            <div>
+                                <span class="bbp-workflow-label">Rip</span>
+                                <h3>Put the cards back in focus.</h3>
+                                <p>Switch the main board to Camera or Hidden while keeping useful statuses, alerts, ticker messages, or the standalone camera frame available.</p>
+                            </div>
+                        </li>
+                    </ol>
+
+                    <p class="bbp-workflow-note">
+                        Random Team results are generated externally, then entered into Breaker Board Pro for assignment and presentation.
+                    </p>
+                </div>
+            </section>
+
+            <section class="bbp-section bbp-preview-section" aria-labelledby="preview-heading">
+                <div class="container">
+                    <div class="bbp-section-heading">
+                        <p class="bbp-section-kicker">Real product media coming next</p>
+                        <h2 id="preview-heading">A closer look at the Break Desk and broadcast boards.</h2>
+                        <p>
+                            Final release captures are being prepared. These labeled slots reserve the exact layouts for real Breaker Board Pro media—no invented interface screens or unlicensed team logos.
+                        </p>
+                    </div>
+
+                    <div class="bbp-media-feature-grid">
+                        <div class="bbp-media-slot bbp-media-slot-wide" data-media-slot="break-desk-control-interface" role="img" aria-label="Placeholder for a real wide screenshot of the Break Desk control interface">
+                            <div class="bbp-media-slot-top">
+                                <span>01 / Break Desk</span>
+                                <span>Wide interface capture</span>
+                            </div>
+                            <div class="bbp-media-slot-body">
+                                <img src="images/breaker-board-pro-logo.png" alt="" width="700" height="233" loading="lazy" aria-hidden="true">
+                                <strong>Break Desk control interface</strong>
+                                <span>Final screenshot slot</span>
+                            </div>
+                        </div>
+
+                        <div class="bbp-media-slot bbp-media-slot-portrait" data-media-slot="portrait-stream-mockup" role="img" aria-label="Placeholder for a real portrait mobile stream composition featuring Breaker Board Pro">
+                            <div class="bbp-media-slot-top">
+                                <span>02 / Stream</span>
+                                <span>9:16</span>
+                            </div>
+                            <div class="bbp-media-slot-body">
+                                <img src="images/breaker-board-pro-logo.png" alt="" width="700" height="233" loading="lazy" aria-hidden="true">
+                                <strong>Portrait stream composition</strong>
+                                <span>Final mockup slot</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bbp-media-grid">
+                        <div class="bbp-media-slot" data-media-slot="fill-board" role="img" aria-label="Placeholder for a real Breaker Board Pro Fill Board screenshot">
+                            <div class="bbp-media-slot-top"><span>03 / Fill Board</span><span>Product capture</span></div>
+                            <div class="bbp-media-slot-body"><strong>Availability at a glance</strong><span>Final screenshot slot</span></div>
+                        </div>
+                        <div class="bbp-media-slot" data-media-slot="trade-board" role="img" aria-label="Placeholder for a real Breaker Board Pro Trade Board screenshot">
+                            <div class="bbp-media-slot-top"><span>04 / Trade Board</span><span>Product capture</span></div>
+                            <div class="bbp-media-slot-body"><strong>Assignments made clear</strong><span>Final screenshot slot</span></div>
+                        </div>
+                        <div class="bbp-media-slot" data-media-slot="camera-mode" role="img" aria-label="Placeholder for a real Breaker Board Pro Camera mode screenshot">
+                            <div class="bbp-media-slot-top"><span>05 / Camera Mode</span><span>Product capture</span></div>
+                            <div class="bbp-media-slot-body"><strong>Cards stay the hero</strong><span>Final screenshot slot</span></div>
+                        </div>
+                    </div>
+
+                    <div class="bbp-video-slot" data-media-slot="short-product-demo">
+                        <div class="bbp-video-icon" aria-hidden="true">▶</div>
+                        <div>
+                            <span class="bbp-workflow-label">Demo area reserved</span>
+                            <h3>From setup to rip in one short walkthrough.</h3>
+                            <p>Final slot for a muted, captioned product demo. No autoplay audio will be used.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bbp-section bbp-features-section" id="features">
+                <div class="container">
+                    <div class="bbp-section-heading">
+                        <p class="bbp-section-kicker">Purpose-built breaker tools</p>
+                        <h2>Everything your broadcast needs. Nothing between you and the break.</h2>
+                        <p>
+                            Each tool supports a specific part of show control, from selling the last team to clearing the board when it is time to rip.
+                        </p>
+                    </div>
+
+                    <div class="bbp-feature-grid">
+                        <article class="bbp-feature-card bbp-feature-card-large">
+                            <span class="bbp-feature-tag">Board control</span>
+                            <h3>Fill Board + Trade Board</h3>
+                            <p>
+                                Present which teams or spots are available, mark them sold as buyers claim them, then move into a clean assignment view before the break begins.
+                            </p>
+                            <ul>
+                                <li>Available and Sold states</li>
+                                <li>Buyer and team assignment view</li>
+                                <li>Pick Your Team and Random Team workflows</li>
+                            </ul>
+                        </article>
+
+                        <article class="bbp-feature-card">
+                            <span class="bbp-feature-tag">During the rip</span>
+                            <h3>Camera + Hidden</h3>
+                            <p>
+                                Replace the board with a camera-focused layout or hide the board package completely. A standalone Camera Frame remains available when you want structure without the full board.
+                            </p>
+                        </article>
+
+                        <article class="bbp-feature-card">
+                            <span class="bbp-feature-tag">Live moments</span>
+                            <h3>Statuses, alerts + ticker</h3>
+                            <p>
+                                Keep persistent show information visible, trigger timed graphics for the moments that matter, and run ticker messages without leaving the Break Desk.
+                            </p>
+                        </article>
+
+                        <article class="bbp-feature-card">
+                            <span class="bbp-feature-tag">Your presentation</span>
+                            <h3>Customer Logo Packs</h3>
+                            <p>
+                                Import artwork in PNG, JPG, WebP, or SVG format and build reusable visual sets around your breaks. Official league and team logos are not bundled.
+                            </p>
+                        </article>
+
+                        <article class="bbp-feature-card bbp-feature-card-large">
+                            <span class="bbp-feature-tag">Local operations</span>
+                            <h3>Offline-ready control + practical recovery</h3>
+                            <p>
+                                After activation, normal operation is designed to work offline. Local persistence and recovery help protect the board state while CSV exports and JSON backups keep useful records portable.
+                            </p>
+                            <ul>
+                                <li>CSV break export</li>
+                                <li>JSON backup and restore workflow</li>
+                                <li>No customer account required</li>
+                            </ul>
+                        </article>
+
+                        <article class="bbp-feature-card">
+                            <span class="bbp-feature-tag">Workflow fit</span>
+                            <h3>PYT + Random Team</h3>
+                            <p>
+                                Run Pick Your Team boards or enter externally generated Random Team results. Breaker Board Pro presents assignments; it does not generate random results or process sales.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bbp-section bbp-obs-section">
+                <div class="container">
+                    <div class="row align-items-center g-5">
+                        <div class="col-lg-6">
+                            <p class="bbp-section-kicker">Made for OBS Browser Sources</p>
+                            <h2>Built to sit between your break and your broadcast.</h2>
+                            <p class="bbp-section-lead">
+                                Breaker Board Pro supplies local Browser Source URLs that you add to OBS. Change the board in the Break Desk, and the broadcast graphic reflects that show state.
+                            </p>
+                            <p>
+                                The primary tested canvas is <strong>1080 × 1920</strong> for portrait streams. A secondary <strong>1920 × 1080</strong> horizontal layout is supported for widescreen workflows.
+                            </p>
+                            <div class="bbp-callout">
+                                <strong>Your video stays yours.</strong>
+                                <span>Breaker Board Pro does not capture, transmit, or store your webcam or customer video.</span>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="bbp-obs-flow" aria-label="Breaker Board Pro workflow from Break Desk through Browser Source URLs to OBS">
+                                <div class="bbp-flow-node">
+                                    <span>01</span>
+                                    <strong>Break Desk</strong>
+                                    <small>Run the board locally</small>
+                                </div>
+                                <span class="bbp-flow-arrow" aria-hidden="true">→</span>
+                                <div class="bbp-flow-node">
+                                    <span>02</span>
+                                    <strong>Browser Source URLs</strong>
+                                    <small>Supply the graphics</small>
+                                </div>
+                                <span class="bbp-flow-arrow" aria-hidden="true">→</span>
+                                <div class="bbp-flow-node">
+                                    <span>03</span>
+                                    <strong>OBS canvas</strong>
+                                    <small>Portrait or horizontal</small>
+                                </div>
+                            </div>
+
+                            <div class="bbp-canvas-grid">
+                                <div>
+                                    <span class="bbp-canvas-shape bbp-canvas-shape-portrait" aria-hidden="true"></span>
+                                    <strong>1080 × 1920</strong>
+                                    <small>Primary portrait canvas</small>
+                                </div>
+                                <div>
+                                    <span class="bbp-canvas-shape bbp-canvas-shape-horizontal" aria-hidden="true"></span>
+                                    <strong>1920 × 1080</strong>
+                                    <small>Secondary horizontal canvas</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bbp-section bbp-sports-section">
+                <div class="container">
+                    <div class="row align-items-center g-5">
+                        <div class="col-lg-5">
+                            <p class="bbp-section-kicker">Flexible by design</p>
+                            <h2>Built for more than one sport or one format.</h2>
+                            <p>
+                                Preset direction covers the most common sports-card categories, while Custom gives breakers room for other team, driver, player, division, or spot-based formats.
+                            </p>
+                        </div>
+                        <div class="col-lg-7">
+                            <ul class="bbp-sport-list" aria-label="Planned sports and custom presets">
+                                <li>Baseball</li>
+                                <li>Football</li>
+                                <li>Basketball</li>
+                                <li>Hockey</li>
+                                <li>Soccer</li>
+                                <li>NASCAR</li>
+                                <li>Custom</li>
+                            </ul>
+                            <p class="bbp-rights-note">
+                                Official league and team logos are not included. Customers are responsible for having the rights to any artwork they import.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bbp-section bbp-launch-section" id="launch">
+                <div class="container">
+                    <div class="bbp-section-heading">
+                        <p class="bbp-section-kicker">Clear, one-time ownership</p>
+                        <h2>Built as desktop software—not another monthly bill.</h2>
+                    </div>
+
+                    <div class="bbp-launch-grid">
+                        <article class="bbp-pricing-card">
+                            <span class="bbp-feature-tag">Planned launch pricing</span>
+                            <p class="bbp-price"><span>$</span>119 <small>one-time</small></p>
+                            <p>
+                                No recurring subscription is planned for the core Breaker Board Pro application. Introductory pricing will be announced at launch.
+                            </p>
+                            <span class="btn bbp-btn-primary" aria-label="Breaker Board Pro is coming soon">Coming Soon</span>
+                        </article>
+
+                        <div class="bbp-platform-stack">
+                            <article class="bbp-platform-card">
+                                <div>
+                                    <span class="bbp-platform-icon" aria-hidden="true">WIN</span>
+                                    <div>
+                                        <h3>Windows</h3>
+                                        <p>Primary commercial launch target.</p>
+                                    </div>
+                                </div>
+                                <span class="bbp-platform-status">Coming soon</span>
+                            </article>
+                            <article class="bbp-platform-card">
+                                <div>
+                                    <span class="bbp-platform-icon" aria-hidden="true">MAC</span>
+                                    <div>
+                                        <h3>macOS</h3>
+                                        <p>Planned; native certification is pending.</p>
+                                    </div>
+                                </div>
+                                <span class="bbp-platform-status bbp-platform-status-muted">Not yet available</span>
+                            </article>
+                            <p class="bbp-theme-note">Optional premium visual Theme Packs are planned after launch. The complete core product will not depend on them.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bbp-section bbp-faq-section" id="faq">
+                <div class="container">
+                    <div class="bbp-section-heading">
+                        <p class="bbp-section-kicker">Pre-launch FAQ</p>
+                        <h2>Questions before the board goes live.</h2>
+                    </div>
+
+                    <div class="bbp-faq-list">
+                        <details>
+                            <summary>Does Breaker Board Pro require a subscription?</summary>
+                            <p>No recurring subscription is planned for the core application. Breaker Board Pro is planned as a one-time purchase.</p>
+                        </details>
+                        <details>
+                            <summary>Do I need an account?</summary>
+                            <p>No. Breaker Board Pro is designed to run without a customer account.</p>
+                        </details>
+                        <details>
+                            <summary>Does it work offline?</summary>
+                            <p>Normal use is designed to operate offline after license activation.</p>
+                        </details>
+                        <details>
+                            <summary>Does it integrate directly with Whatnot?</summary>
+                            <p>No. Whatnot runs the sale, while Breaker Board Pro runs the local board and broadcast graphics. Breaker Board Pro is not affiliated with or endorsed by Whatnot.</p>
+                        </details>
+                        <details>
+                            <summary>Does it randomize teams?</summary>
+                            <p>No. Random Team results are generated with an external randomization service and then entered into Breaker Board Pro for assignment and presentation.</p>
+                        </details>
+                        <details>
+                            <summary>Does it include official team logos?</summary>
+                            <p>No. Official league and team logos are not bundled. You can import your own Logo Packs, and you are responsible for having rights to the artwork you use.</p>
+                        </details>
+                        <details>
+                            <summary>Do I need OBS?</summary>
+                            <p>OBS or another streaming application that supports Browser Sources is needed to place Breaker Board Pro graphics on a live broadcast.</p>
+                        </details>
+                        <details>
+                            <summary>Can I use my own logos?</summary>
+                            <p>Yes. Customer-created Logo Packs can use PNG, JPG, WebP, or SVG artwork. You are responsible for rights to imported artwork.</p>
+                        </details>
+                        <details>
+                            <summary>Is Mac supported?</summary>
+                            <p>Not yet. The first commercial launch target is Windows. A macOS version is planned, but native certification is still pending.</p>
+                        </details>
+                        <details>
+                            <summary>How will activation work?</summary>
+                            <p>The launch plan uses one-time license activation. An internet connection will be needed to activate, and normal use is designed to work offline afterward. Final details will be published at launch.</p>
+                        </details>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bbp-final-section">
+                <div class="container">
+                    <div class="bbp-final-cta">
+                        <div>
+                            <p class="bbp-section-kicker">The board is almost ready</p>
+                            <h2>Breaker Board Pro is coming soon for Windows.</h2>
+                            <p>Want to ask about the launch, workflow, or whether it fits your break setup? Talk directly with BlackRidge IT.</p>
+                        </div>
+                        <a class="btn bbp-btn-primary" href="contact.html">Ask About Breaker Board Pro</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer bbp-footer">
+            <div class="container">
+                <p class="footer-brand">BlackRidge IT</p>
+                <p>Small Business. Strong IT. Local Support.</p>
+
+                <hr class="footer-line">
+
+                <p class="footer-links">
+                    <a href="services.html">Services</a>
+                    <a href="work.html">Work</a>
+                    <a href="breaker-board-pro.html" aria-current="page">Breaker Board Pro</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </p>
+
+                <p class="social-links">
+                    <a href="https://www.facebook.com/share/1aUnyzbkw2/?mibextid=wwXlfr" target="_blank" rel="noopener noreferrer" aria-label="Visit BlackRidge IT on Facebook">
+                        <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M22 12.06C22 6.48 17.52 2 11.94 2S2 6.48 2 12.06c0 5.02 3.66 9.19 8.44 9.94v-7.03H7.9v-2.91h2.54V9.84c0-2.51 1.49-3.89 3.77-3.89 1.09 0 2.23.19 2.23.19v2.45h-1.25c-1.24 0-1.62.77-1.62 1.56v1.87h2.76l-.44 2.91h-2.32V22c4.78-.75 8.43-4.92 8.43-9.94z"/>
+                        </svg>
+                        Follow us on Facebook
+                    </a>
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
