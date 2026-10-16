@@ -1079,20 +1079,24 @@ Breaker Board Pro Product Page
 
 .bbp-skip-link {
     position: fixed;
-    top: 14px;
+    top: -100px;
     left: 14px;
     z-index: 1100;
-    transform: translateY(-180%);
     background: #ffffff;
     color: #07101c;
     border-radius: 8px;
     padding: 10px 16px;
     font-weight: 800;
     text-decoration: none;
+    transition: none;
 }
 
 .bbp-skip-link:focus {
-    transform: translateY(0);
+    top: 14px;
+}
+
+.bbp-skip-link:not(:focus) {
+    clip-path: inset(50%);
 }
 
 .bbp-page .custom-navbar {
@@ -1314,109 +1318,51 @@ Breaker Board Pro Product Page
     line-height: 1.6;
 }
 
-.bbp-hero-demo {
-    position: relative;
-    width: min(100%, 390px);
-    margin-left: auto;
-    padding: 10px;
-    border: 1px solid rgba(105, 204, 255, 0.36);
-    border-radius: 30px;
-    background: rgba(5, 10, 18, 0.76);
-    box-shadow:
-        0 30px 90px rgba(0, 0, 0, 0.48),
-        0 0 70px rgba(56, 189, 248, 0.08);
-    transform: perspective(1100px) rotateY(-3deg) rotateX(1deg);
-}
-
-.bbp-demo-header,
-.bbp-demo-footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
-    color: #aebdd0;
-    font-size: 0.67rem;
-    font-weight: 800;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-}
-
-.bbp-demo-header {
-    padding: 10px 10px 14px;
-}
-
-.bbp-demo-footer {
-    justify-content: center;
-    padding: 14px 6px 8px;
-    color: #8fa4bb;
-}
-
-.bbp-demo-canvas {
-    position: relative;
-    display: flex;
-    aspect-ratio: 9 / 16;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    border: 1px solid rgba(190, 217, 242, 0.16);
-    border-radius: 22px;
-    background:
-        linear-gradient(180deg, rgba(4, 9, 16, 0.3), rgba(4, 9, 16, 0.9)),
-        radial-gradient(circle at 50% 32%, rgba(50, 177, 244, 0.2), transparent 30%),
-        repeating-linear-gradient(90deg, rgba(160, 194, 224, 0.04) 0 1px, transparent 1px 44px),
-        #0a111d;
+/* Owned product identity; real screenshots live in the gallery. */
+.bbp-brand-panel {
+    padding: 38px 28px;
+    border: 1px solid var(--bbp-border-strong);
+    border-radius: 24px;
+    background: radial-gradient(ellipse at top, rgba(56, 189, 248, 0.12), transparent 75%), #0b1320;
+    box-shadow: 0 28px 70px rgba(0, 0, 0, 0.3);
     text-align: center;
 }
 
-.bbp-demo-canvas::before,
-.bbp-demo-canvas::after {
-    content: "";
-    position: absolute;
-    left: 10%;
-    right: 10%;
-    height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(56, 189, 248, 0.42), transparent);
+.bbp-brand-panel .bbp-product-logo {
+    width: 100%;
+    margin: 0 auto 24px;
 }
 
-.bbp-demo-canvas::before {
-    top: 18%;
+.bbp-brand-line {
+    color: var(--bbp-text);
+    font-size: 1.1rem;
+    font-weight: 700;
 }
 
-.bbp-demo-canvas::after {
-    bottom: 18%;
-}
-
-.bbp-demo-canvas img {
-    width: 72%;
-    height: auto;
-    opacity: 0.78;
-    filter: drop-shadow(0 12px 24px rgba(0, 0, 0, 0.55));
-}
-
-.bbp-demo-canvas p {
-    margin: 20px 0 0;
-    color: #dbe7f3;
+.bbp-mode-flow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 26px 0;
     font-size: 0.82rem;
     font-weight: 800;
-    letter-spacing: 0.08em;
     text-transform: uppercase;
 }
 
-.bbp-canvas-label {
-    position: absolute;
-    top: 22px;
-    left: 22px;
-    padding: 6px 9px;
-    border: 1px solid rgba(255, 157, 50, 0.38);
-    border-radius: 999px;
-    background: rgba(255, 157, 50, 0.08);
-    color: #ffd5a9;
-    font-size: 0.59rem;
-    font-weight: 800;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
+.bbp-mode-flow span {
+    padding: 10px 12px;
+    border: 1px solid var(--bbp-border);
+    border-radius: 6px;
+    background: rgba(56, 189, 248, 0.05);
 }
+
+.bbp-mode-flow b { color: var(--bbp-orange); }
+.bbp-brand-detail { margin: 0; color: var(--bbp-muted); line-height: 1.75; }
+
+.bbp-hero-price { margin: 25px 0 0; color: var(--bbp-muted); line-height: 1.9; }
+.bbp-hero-price strong { margin: 0 5px; color: #fff; font-size: 1.65rem; }
+.bbp-hero-price span { font-size: 0.92rem; }
 
 .bbp-foundation {
     position: relative;
@@ -1635,136 +1581,71 @@ Breaker Board Pro Product Page
         var(--bbp-bg);
 }
 
-.bbp-media-feature-grid {
-    display: grid;
-    grid-template-columns: minmax(0, 1.7fr) minmax(260px, 0.55fr);
-    gap: 18px;
-}
-
-.bbp-media-grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 18px;
-    margin-top: 18px;
-}
-
-.bbp-media-slot {
-    position: relative;
-    min-height: 280px;
-    overflow: hidden;
-    border: 1px dashed rgba(120, 193, 232, 0.42);
-    border-radius: 18px;
-    background:
-        radial-gradient(circle at 50% 35%, rgba(56, 189, 248, 0.14), transparent 26%),
-        repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.018) 0 1px, transparent 1px 16px),
-        linear-gradient(145deg, #101a29, #0a111d);
-}
-
-.bbp-media-slot::after {
-    content: "";
-    position: absolute;
-    inset: 14px;
-    border: 1px solid rgba(184, 212, 236, 0.08);
-    border-radius: 12px;
-    pointer-events: none;
-}
-
-.bbp-media-slot-wide {
-    min-height: 460px;
-}
-
-.bbp-media-slot-portrait {
-    min-height: 460px;
-}
-
-.bbp-media-slot-top {
-    position: relative;
-    z-index: 2;
-    display: flex;
-    justify-content: space-between;
-    gap: 16px;
-    padding: 22px 24px;
-    color: #9aadc2;
-    font-size: 0.67rem;
-    font-weight: 800;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-}
-
-.bbp-media-slot-top span:first-child {
-    color: #d5e2ef;
-}
-
-.bbp-media-slot-body {
-    position: relative;
-    z-index: 2;
-    display: flex;
-    min-height: 210px;
-    height: calc(100% - 62px);
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 30px;
-    text-align: center;
-}
-
-.bbp-media-slot-body img {
-    width: min(55%, 320px);
-    height: auto;
-    margin-bottom: 28px;
-    opacity: 0.55;
-    filter: grayscale(0.2) drop-shadow(0 12px 18px rgba(0, 0, 0, 0.4));
-}
-
-.bbp-media-slot-body strong {
-    color: #edf5fc;
-    font-size: 1rem;
-}
-
-.bbp-media-slot-body span {
-    margin-top: 8px;
-    color: #8398b0;
-    font-size: 0.73rem;
-    font-weight: 800;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-}
-
-.bbp-video-slot {
-    display: flex;
-    align-items: center;
-    gap: 26px;
-    margin-top: 18px;
-    padding: 30px;
-    border: 1px solid var(--bbp-border);
-    border-radius: 18px;
-    background: linear-gradient(100deg, rgba(19, 31, 48, 0.98), rgba(11, 18, 29, 0.98));
-}
-
-.bbp-video-icon {
-    display: inline-flex;
-    width: 64px;
-    height: 64px;
-    flex: 0 0 auto;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid rgba(255, 157, 50, 0.5);
-    border-radius: 50%;
-    background: rgba(255, 157, 50, 0.1);
-    color: #ffc485;
-    font-size: 1.1rem;
-}
-
-.bbp-video-slot h3 {
-    margin: 7px 0 6px;
-    font-size: 1.3rem;
-    font-weight: 800;
-}
-
-.bbp-video-slot p {
+/* Real product media: natural aspect ratios and full-size image links. */
+.bbp-media-figure {
+    min-width: 0;
     margin: 0;
-    color: #9fb2c7;
-    font-size: 0.9rem;
+    overflow: hidden;
+    border: 1px solid var(--bbp-border);
+    border-radius: 16px;
+    background: #0d1522;
+}
+
+.bbp-media-link { display: block; background: #080d14; }
+.bbp-media-link:focus-visible { outline-offset: -4px; }
+.bbp-media-link img { display: block; width: 100%; height: auto; }
+.bbp-media-figure figcaption { padding: 26px; }
+.bbp-media-figure h3 { margin: 10px 0; font-size: clamp(1.35rem, 2.2vw, 1.9rem); font-weight: 800; }
+.bbp-media-figure figcaption > p:last-child { margin-bottom: 0; }
+.bbp-media-desk figcaption > p { max-width: 960px; }
+
+.bbp-gallery-composition {
+    display: grid;
+    grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.4fr);
+    gap: 24px;
+    align-items: start;
+    margin-top: 24px;
+}
+
+.bbp-media-portrait { width: 100%; max-width: 390px; justify-self: center; }
+.bbp-board-stack { display: grid; gap: 24px; min-width: 0; }
+
+.bbp-media-status {
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+    align-items: center;
+    margin-top: 24px;
+}
+
+.bbp-media-status .bbp-media-link { margin: 24px; border-radius: 8px; }
+.bbp-media-artwork { margin-top: 24px; }
+.bbp-media-artwork .bbp-media-link img { max-width: 1147px; margin-inline: auto; }
+
+.bbp-media-figure .bbp-media-disclosure {
+    margin: 20px 0 0;
+    padding: 16px;
+    border-left: 3px solid var(--bbp-gold);
+    background: #162233;
+    color: #d9e3ef;
+    font-size: 0.9375rem;
+    line-height: 1.7;
+}
+
+.bbp-media-artwork .bbp-media-disclosure { margin: 0 0 26px; }
+
+@media (max-width: 991px) {
+    .bbp-gallery-composition { grid-template-columns: minmax(0, 1fr); }
+    .bbp-media-portrait { max-width: 370px; }
+    .bbp-media-status { grid-template-columns: minmax(0, 1fr); }
+}
+
+@media (max-width: 767px) {
+    .bbp-brand-panel { padding: 28px 18px; }
+    .bbp-mode-flow { gap: 6px; font-size: 0.72rem; }
+    .bbp-mode-flow span { padding: 9px; }
+    .bbp-media-figure figcaption { padding: 20px; }
+    .bbp-media-status .bbp-media-link { margin: 18px 12px 0; }
+    .bbp-media-figure .bbp-media-disclosure { padding: 14px; }
 }
 
 .bbp-features-section {
@@ -2033,35 +1914,20 @@ Breaker Board Pro Product Page
 }
 
 .bbp-price {
-    display: flex;
-    align-items: baseline;
-    gap: 6px;
-    margin: 0 0 18px;
+    margin: 0 0 10px;
     color: #ffffff !important;
-    font-size: clamp(3.6rem, 7vw, 5.7rem);
+    font-size: clamp(3.6rem, 7vw, 5.2rem);
     font-weight: 850;
-    letter-spacing: -0.065em;
-    line-height: 0.9 !important;
+    letter-spacing: -0.055em;
+    line-height: 1.05 !important;
 }
 
-.bbp-price > span {
-    align-self: flex-start;
-    margin-top: 5px;
-    color: var(--bbp-orange);
-    font-size: 1.5rem;
-    letter-spacing: 0;
-}
-
-.bbp-price small {
-    color: #b7c5d6;
-    font-size: 0.9rem;
-    font-weight: 700;
-    letter-spacing: 0;
-}
-
-.bbp-pricing-card > p:not(.bbp-price) {
-    margin-bottom: 28px;
-}
+.bbp-pricing-card .bbp-purchase-type { margin-bottom: 8px; color: #f4f7fb; font-weight: 700; }
+.bbp-pricing-card .bbp-regular-price { margin-bottom: 24px; }
+.bbp-license-list { padding-left: 20px; margin: 22px 0; color: var(--bbp-muted); line-height: 1.65; }
+.bbp-license-list li + li { margin-top: 8px; }
+.bbp-pricing-card .bbp-checkout-note { padding-top: 20px; border-top: 1px solid var(--bbp-border); font-size: 0.92rem; }
+.bbp-platform-status { white-space: normal; text-align: center; }
 
 .bbp-platform-stack {
     display: flex;
@@ -2257,11 +2123,6 @@ Breaker Board Pro Product Page
         padding-top: 76px;
     }
 
-    .bbp-hero-demo {
-        margin: 20px auto 0;
-        transform: none;
-    }
-
     .bbp-product-logo {
         width: min(450px, 100%);
     }
@@ -2294,10 +2155,6 @@ Breaker Board Pro Product Page
 
     .bbp-workflow-number {
         margin-bottom: 20px;
-    }
-
-    .bbp-media-feature-grid {
-        grid-template-columns: minmax(0, 1.45fr) minmax(240px, 0.7fr);
     }
 
     .bbp-feature-grid {
@@ -2361,16 +2218,6 @@ Breaker Board Pro Product Page
         width: 100%;
     }
 
-    .bbp-hero-demo {
-        width: min(100%, 340px);
-        padding: 8px;
-        border-radius: 24px;
-    }
-
-    .bbp-demo-canvas {
-        border-radius: 18px;
-    }
-
     .bbp-foundation-grid {
         grid-template-columns: 1fr;
     }
@@ -2408,8 +2255,6 @@ Breaker Board Pro Product Page
 
     .bbp-pain-grid,
     .bbp-workflow-list,
-    .bbp-media-feature-grid,
-    .bbp-media-grid,
     .bbp-feature-grid,
     .bbp-launch-grid,
     .bbp-faq-list {
@@ -2434,31 +2279,6 @@ Breaker Board Pro Product Page
         width: 48px;
         height: 48px;
         margin: 0;
-    }
-
-    .bbp-media-slot,
-    .bbp-media-slot-wide,
-    .bbp-media-slot-portrait {
-        min-height: 300px;
-    }
-
-    .bbp-media-slot-top {
-        padding: 20px;
-    }
-
-    .bbp-media-slot-body {
-        padding: 22px;
-    }
-
-    .bbp-video-slot {
-        align-items: flex-start;
-        gap: 18px;
-        padding: 24px;
-    }
-
-    .bbp-video-icon {
-        width: 48px;
-        height: 48px;
     }
 
     .bbp-feature-card,
@@ -2536,19 +2356,6 @@ Breaker Board Pro Product Page
         letter-spacing: 0.1em;
     }
 
-    .bbp-demo-header,
-    .bbp-demo-footer {
-        font-size: 0.58rem;
-    }
-
-    .bbp-media-slot-top {
-        flex-direction: column;
-        gap: 5px;
-    }
-
-    .bbp-video-slot {
-        flex-direction: column;
-    }
 }
 
 @media (prefers-reduced-motion: reduce) {
