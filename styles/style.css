@@ -2367,3 +2367,24 @@ Breaker Board Pro Product Page
         transition-duration: 0.01ms !important;
     }
 }
+
+/* Breaker Board Pro customer terms: narrow pre-purchase/accessibility additions. */
+.bbp-purchase-terms { margin: 23px 0 17px; padding: 18px 20px; border: 1px solid rgba(56, 189, 248, .35); border-radius: 12px; background: rgba(56, 189, 248, .065); }
+.bbp-purchase-terms > strong { color: #f4f7fb; font-size: 1rem; font-weight: 800; }
+.bbp-purchase-terms p { margin: 10px 0 0; color: #d0dce8; font-size: .9rem; line-height: 1.65; }
+.bbp-purchase-terms p strong { color: #f4f7fb; }
+.bbp-purchase-terms a, .bbp-prepurchase-disclosure a { color: #8adaff; font-weight: 750; text-decoration: underline; }
+.bbp-prepurchase-disclosure { margin-top: 15px; padding: 12px 14px; border-left: 3px solid var(--bbp-blue); background: rgba(56, 189, 248, .06); color: #d0dce8; }
+.bbp-legal-main { min-height: 65vh; padding: 64px 18px 92px; background: radial-gradient(circle at 85% 0%, rgba(56,189,248,.095), transparent 34%), #070b12; }
+.bbp-legal-shell { max-width: 900px; }
+.bbp-legal-main h1 { margin: 12px 0 18px; color: #f7fbff; font-weight: 800; font-size: clamp(2rem, 5vw, 3.3rem); letter-spacing: -.035em; }
+.bbp-legal-intro { max-width: 760px; color: #c2d1e0; font-size: 1.07rem; line-height: 1.75; }
+.bbp-legal-return { margin: 16px 0 31px; }
+.bbp-legal-document { padding: clamp(22px, 5vw, 52px); border: 1px solid rgba(156,182,215,.23); border-radius: 16px; background: #0d1522; overflow-wrap: anywhere; }
+.bbp-legal-document p { color: #d6e1ed; line-height: 1.85; margin: 0 0 18px; }
+.bbp-legal-document h2 { color: #f3ca62; font-size: clamp(1.06rem, 2.5vw, 1.3rem); font-weight: 800; margin: 35px 0 13px; }
+.bbp-legal-document .bbp-legal-meta { color: #abc9df; font-weight: 700; }
+.bbp-legal-document .bbp-legal-conspicuous { font-weight: 800; color: #f6f8fc; border-left: 3px solid #ff9d32; padding-left: 13px; }
+.bbp-legal-document a, .bbp-legal-return a { color: #88dbff; text-decoration: underline; }
+.bbp-legal-footer-identity { color: #b0c3d5; font-size: .8rem; }
+@media (max-width: 575px) { .bbp-legal-main { padding: 38px 8px 64px; } .bbp-legal-document { border-radius: 10px; } }
