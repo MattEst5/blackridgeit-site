@@ -13,7 +13,7 @@ This site was originally built as part of CS50x's Homepage assignment and is bei
 - `about.html` - About BlackRidge IT
 - `contact.html` - Contact and support request form
 - `work.html` - Portfolio and current development projects
-- `breaker-board-pro.html` - Breaker Board Pro v1.0.0 product page with real screenshots and launch pricing; Windows checkout pending
+- `breaker-board-pro.html` - Breaker Board Pro Windows v1.0.0 product page with genuine screenshots, launch pricing, search/SoftwareApplication/Offer metadata, license/privacy/refund disclosures and owner-provided reusable hosted Lemon Squeezy checkout link (review branch until separately authorized production launch)
 - `thank-you.html` - Form submission confirmation page
 
 Product media requirements for the Breaker Board Pro page are documented in `docs/breaker-board-pro-media.md`.
