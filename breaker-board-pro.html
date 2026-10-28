@@ -4,25 +4,31 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Local-first Windows software for sports card breakers. Control Fill and Trade Boards, live graphics, and OBS output. $59.99 one-time launch price; checkout coming soon.">
+        <meta name="description" content="Breaker Board Pro is Windows OBS overlay software for sports card breakers. Manage Fill and Trade boards, team assignments, ticker messages and live alerts.">
+        <meta name="robots" content="index, follow, max-image-preview:large">
+        <meta name="author" content="BlackRidge LLC d/b/a BlackRidge IT">
+        <meta name="application-name" content="Breaker Board Pro">
+        <meta name="theme-color" content="#070b12">
 
-        <title>Breaker Board Pro | Windows OBS Software for Sports Card Breakers</title>
+        <title>Breaker Board Pro | OBS Overlay Software for Sports Card Breakers</title>
 
         <link rel="canonical" href="https://blackridgeit.net/breaker-board-pro.html">
 
         <meta property="og:site_name" content="BlackRidge IT">
-        <meta property="og:title" content="Breaker Board Pro | Windows OBS Software for Sports Card Breakers">
-        <meta property="og:description" content="Local-first Windows software for sports card breakers. Control Fill and Trade Boards, live graphics, and OBS output. $59.99 one-time launch price; checkout coming soon.">
+        <meta property="og:locale" content="en_US">
+        <meta property="og:title" content="Breaker Board Pro | OBS Overlay Software for Sports Card Breakers">
+        <meta property="og:description" content="Breaker Board Pro is Windows OBS overlay software for sports card breakers. Manage Fill and Trade boards, team assignments, ticker messages and live alerts.">
         <meta property="og:type" content="website">
         <meta property="og:url" content="https://blackridgeit.net/breaker-board-pro.html">
         <meta property="og:image" content="https://blackridgeit.net/images/breaker-board-pro-logo.png">
         <meta property="og:image:width" content="700">
         <meta property="og:image:height" content="233">
         <meta property="og:image:alt" content="Breaker Board Pro blue, orange, silver, and gold product logo">
+        <meta property="og:image:type" content="image/png">
 
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="Breaker Board Pro | Windows OBS Software for Sports Card Breakers">
-        <meta name="twitter:description" content="Local-first Windows software for sports card breakers. Control Fill and Trade Boards, live graphics, and OBS output. $59.99 one-time launch price; checkout coming soon.">
+        <meta name="twitter:title" content="Breaker Board Pro | OBS Overlay Software for Sports Card Breakers">
+        <meta name="twitter:description" content="Breaker Board Pro is Windows OBS overlay software for sports card breakers. Manage Fill and Trade boards, team assignments, ticker messages and live alerts.">
         <meta name="twitter:image" content="https://blackridgeit.net/images/breaker-board-pro-logo.png">
         <meta name="twitter:image:alt" content="Breaker Board Pro blue, orange, silver, and gold product logo">
 
@@ -36,19 +42,56 @@
             "@context": "https://schema.org",
             "@graph": [
                 {
+                    "@type": "Organization",
+                    "@id": "https://blackridgeit.net/#organization",
+                    "name": "BlackRidge IT",
+                    "legalName": "BlackRidge LLC",
+                    "url": "https://blackridgeit.net/",
+                    "email": "support@blackridgeit.net",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://blackridgeit.net/images/breaker-board-pro-logo.png"
+                    }
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https://blackridgeit.net/#website",
+                    "name": "BlackRidge IT",
+                    "url": "https://blackridgeit.net/",
+                    "publisher": {
+                        "@id": "https://blackridgeit.net/#organization"
+                    }
+                },
+                {
+                    "@type": "WebPage",
+                    "@id": "https://blackridgeit.net/breaker-board-pro.html#webpage",
+                    "name": "Breaker Board Pro | OBS Overlay Software for Sports Card Breakers",
+                    "url": "https://blackridgeit.net/breaker-board-pro.html",
+                    "description": "Breaker Board Pro is Windows OBS overlay software for sports card breakers. Manage Fill and Trade boards, team assignments, ticker messages and live alerts.",
+                    "inLanguage": "en-US",
+                    "isPartOf": {
+                        "@id": "https://blackridgeit.net/#website"
+                    },
+                    "about": {
+                        "@id": "https://blackridgeit.net/breaker-board-pro.html#software"
+                    },
+                    "primaryImageOfPage": {
+                        "@type": "ImageObject",
+                        "url": "https://blackridgeit.net/images/breaker-board-pro-logo.png"
+                    }
+                },
+                {
                     "@type": "SoftwareApplication",
                     "@id": "https://blackridgeit.net/breaker-board-pro.html#software",
                     "name": "Breaker Board Pro",
                     "url": "https://blackridgeit.net/breaker-board-pro.html",
                     "image": "https://blackridgeit.net/images/breaker-board-pro-logo.png",
-                    "description": "Breaker Board Pro 1.0.0 is local-first Windows broadcast-control software for sports card breakers, with OBS Browser Source output. Core standalone launch price: $59.99 one-time; regular price: $79.99. Windows purchase availability is pending final commerce approval.",
+                    "description": "Breaker Board Pro v1.0.0 is Windows OBS overlay and broadcast-control software for sports card breakers, with Fill and Trade Boards, team assignments, ticker messages, live alerts and local backup. No direct Whatnot API integration.",
                     "applicationCategory": "MultimediaApplication",
                     "applicationSubCategory": "Sports card break broadcast overlay software",
-                    "operatingSystem": "Windows",
+                    "operatingSystem": "Windows 10 or later",
                     "publisher": {
-                        "@type": "Organization",
-                        "name": "BlackRidge IT",
-                        "url": "https://blackridgeit.net/"
+                        "@id": "https://blackridgeit.net/#organization"
                     },
                     "featureList": [
                         "Break Desk broadcast controls",
@@ -66,7 +109,16 @@
                         "Optional standalone camera-frame Browser Source",
                         "Offline normal operation after activation, with no account, telemetry, or cloud heartbeat"
                     ],
-                    "softwareVersion": "1.0.0"
+                    "softwareVersion": "1.0.0",
+                    "mainEntityOfPage": {
+                        "@id": "https://blackridgeit.net/breaker-board-pro.html#webpage"
+                    },
+                    "screenshot": [
+                        "https://blackridgeit.net/images/breaker-board-pro/breaker-board-pro-break-desk.webp",
+                        "https://blackridgeit.net/images/breaker-board-pro/breaker-board-pro-fill-board.webp",
+                        "https://blackridgeit.net/images/breaker-board-pro/breaker-board-pro-trade-board.webp",
+                        "https://blackridgeit.net/images/breaker-board-pro/breaker-board-pro-live-portrait.webp"
+                    ]
                 },
                 {
                     "@type": "BreadcrumbList",
@@ -144,6 +196,22 @@
                             "acceptedAnswer": {
                                 "@type": "Answer",
                                 "text": "To place Breaker Board Pro graphics on a live broadcast, use OBS or another streaming application that supports Browser Sources. Breaker Board Pro supplies local Browser Source URLs; you control the presentation in the Break Desk. The main source supports Fill, Trade, Camera, and Hidden without rebuilding the scene. An optional standalone camera-frame source is also available."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "Can I run Breaker Board Pro with OBS on another computer?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Not as a direct networked Browser Source in v1.0.0. Breaker Board Pro's local OBS Browser Source runs on the same Windows computer as the licensed application. Separate computers can receive a video feed produced by the licensed computer, but networked Browser Sources are not supported."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "What OBS Browser Source size should I use?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Use Width 1080 and Height 1920 for portrait (9:16), or Width 1920 and Height 1080 for horizontal (16:9), in the OBS Browser Source Properties. Replace the default 800 x 600 instead of stretching the source."
                             }
                         },
                         {
@@ -725,6 +793,14 @@
                         <details>
                             <summary>Do I need OBS?</summary>
                             <p>To place Breaker Board Pro graphics on a live broadcast, use OBS or another streaming application that supports Browser Sources. Breaker Board Pro supplies local Browser Source URLs; you control the presentation in the Break Desk. The main source supports Fill, Trade, Camera, and Hidden without rebuilding the scene. An optional standalone camera-frame source is also available.</p>
+                        </details>
+                        <details>
+                            <summary>Can I run Breaker Board Pro with OBS on another computer?</summary>
+                            <p>Not as a direct networked Browser Source in v1.0.0. Breaker Board Pro's local OBS Browser Source runs on the same Windows computer as the licensed application. Separate computers can receive a video feed produced by the licensed computer, but networked Browser Sources are not supported.</p>
+                        </details>
+                        <details>
+                            <summary>What OBS Browser Source size should I use?</summary>
+                            <p>Use Width 1080 and Height 1920 for portrait (9:16), or Width 1920 and Height 1080 for horizontal (16:9), in the OBS Browser Source Properties. Replace the default 800 x 600 instead of stretching the source.</p>
                         </details>
                         <details>
                             <summary>Can I use my own artwork?</summary>
