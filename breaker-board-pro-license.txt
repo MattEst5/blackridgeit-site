@@ -1,0 +1,266 @@
+BREAKER BOARD PRO - CUSTOMER SOFTWARE LICENSE
+License Version: 1.0
+Effective Date: October 27, 2026
+
+Copyright 2026 BlackRidge LLC, doing business as BlackRidge IT.
+All rights reserved.
+
+This Customer Software License Agreement ("Agreement") governs use of
+Breaker Board Pro ("Software") acquired through an Authorized Purchase.
+It is between BlackRidge LLC, an Arkansas limited liability company doing
+business as BlackRidge IT ("BlackRidge"), and the customer defined below.
+
+BEFORE INSTALLING: Read this Agreement, including the refund policy and
+limitations of liability. The Windows installer asks you to affirmatively
+accept this Agreement before installation. If you do not accept it, do not
+install, activate, or use the Software. Section 7 explains the voluntary
+14-day refund path for rejecting these terms before activation.
+
+1. DEFINITIONS AND PURCHASE RELATIONSHIP
+
+"Authorized Purchase" means a legitimate, fully paid purchase of a
+Breaker Board Pro license from BlackRidge or a reseller or merchant of
+record authorized by BlackRidge. The customer's order confirmation or
+receipt identifies the applicable transaction.
+
+"You" means the individual or business making the Authorized Purchase.
+An individual accepting this Agreement for a business represents that
+they have authority to bind that business. The business may allow
+employees and contractors to operate its licensed installation, but
+not to install and activate separate simultaneous copies.
+
+"Purchased Major Version" means the Software's numbered major release
+identified in the purchase. A purchase of version 1 includes use of
+version 1.0.0 and other released 1.x updates made available by BlackRidge
+under that purchase. It does not include a future 2.x release unless
+BlackRidge separately offers or grants that upgrade.
+
+"Activated Installation" means one activated Windows user profile on
+one Windows computer using the Software's locally protected activation
+record. A separate Windows profile, replacement computer, or missing
+binding may require a new activation request and license reissue.
+
+Where an authorized merchant of record handles a transaction, that
+merchant is the seller or authorized reseller for the payment transaction
+and administers checkout, collection, applicable transaction taxes, and
+payment refunds under the terms presented to the buyer. BlackRidge remains
+the Software developer, licensor, and product-support contact.
+
+2. LICENSE GRANT AND DEVICE LIMIT
+
+Subject to an Authorized Purchase and compliance with this Agreement,
+BlackRidge grants You a perpetual, limited, non-exclusive,
+non-transferable license to install and use the Purchased Major Version
+for Your own breaking, production, and broadcast operations. One
+Authorized Purchase permits one Activated Installation at a time.
+Reasonable archival and backup copies are allowed, but this does not
+permit a second active activation or license sharing. All ownership
+rights not expressly granted remain with BlackRidge.
+
+Breaker Board Pro v1.0.0 is designed to run on the same Windows computer
+as the OBS Browser Sources displaying its local output. A direct
+networked Browser Source connection to a different OBS computer is not
+supported. Merely receiving a separate video feed produced by the
+licensed computer does not by itself require another Software license;
+installing and activating BBP on a second computer does.
+
+3. ACTIVATION, REISSUES, AND RESTRICTIONS
+
+To activate, run the Windows application, select Copy Request, and
+email the activation request and purchase order reference to
+support@blackridgeit.net. BlackRidge manually verifies the purchase
+and issues a license.bbpro file for import using Import License.
+Activation is not instantaneous or automated.
+
+Normal local operation after activation requires no BlackRidge account,
+subscription, recurring Internet connection, or activation heartbeat
+during the Purchased Major Version. Broadcasting through a third-party
+platform may still require Internet access.
+
+Legitimate replacement-computer, failed-drive, reinstalled-Windows,
+or user-profile changes may require a new request. Reasonable verified
+reissues are included, provided the previous installation is no longer
+in active use. BlackRidge may request the order reference, new activation
+request, and reasonable confirmation of replacement or discontinued use.
+BlackRidge may decline unverifiable or reasonably suspected abusive
+activation or reissue requests, subject to Section 7 and applicable law.
+
+You may not redistribute, resell, sublicense, rent, publish, share,
+transfer, or supply copies of the Software or included BlackRidge assets
+to another person or business; share an activation file to activate
+another person's installation; intentionally bypass licensing controls;
+or remove or misrepresent ownership notices. You may not reverse
+engineer, decompile, or disassemble the Software except to the extent
+applicable law expressly permits, despite this restriction. Additional
+simultaneously activated Windows installations require separate
+licenses unless BlackRidge agrees otherwise in writing.
+
+4. CUSTOMER DATA, ARTWORK, AND BROADCAST RESPONSIBILITY
+
+You own Your break data. BlackRidge claims no ownership in Your buyer
+names, prices, records, or exported reports. Working break data and
+customer-imported artwork are stored locally; You are responsible for
+reviewing information and maintaining suitable backups.
+
+Breaker Board Pro is a display and organization tool. It is not a
+payment processor, randomizer, independent sale ledger, or authoritative
+record of any marketplace transaction or externally generated result.
+You are responsible for verifying buyer assignments, spot availability,
+prices, ownership, imported data, and displayed results before and
+during broadcast. Where applicable, the original marketplace, payment,
+and transaction records control over any conflicting Software display.
+You are responsible for the applicable laws and marketplace rules for
+Your breaks and broadcasts.
+
+Artwork that You import remains subject to the rights of its owner.
+Official league and team logos are not bundled. This Agreement grants
+no rights to third-party marks, images, or logos. You must have
+permission to use imported assets. BlackRidge-created branding,
+included assets, and Software code remain BlackRidge property.
+
+5. THIRD-PARTY SERVICES AND PLATFORM LIMITATIONS
+
+The Software is not affiliated with, sponsored by, or endorsed by
+Whatnot or any other marketplace, league, team, card manufacturer,
+or broadcast platform unless BlackRidge expressly confirms otherwise
+in writing. The Software does not conduct sales, process marketplace
+transactions, perform external randomization, capture video, or control
+third-party services. Third-party availability, policies, and account
+restrictions are outside BlackRidge's control.
+
+6. UPDATES, DELIVERY, AND SUPPORT
+
+BlackRidge includes maintenance, bug-fix, and other 1.x updates that
+it actually releases for the Purchased Major Version. No particular
+future feature, number of updates, release date, or uninterrupted
+support service is guaranteed. A future major version may have
+separate purchase or upgrade terms. No forced auto-update is promised.
+
+A "Trusted Delivery Source" means a secure download made available
+through the Authorized Purchase receipt or an official download link
+issued by BlackRidge. Before updating, export a data backup, exit the
+application, and use the replacement installer from that source.
+
+The purchase includes reasonable help with installation, manual
+activation and legitimate reissues, normal Software troubleshooting,
+the documented OBS Browser Source setup, bug reports, and supported
+local-state recovery guidance. Full OBS production design, unrelated
+OS/network repair, marketplace account support, custom artwork,
+third-party services or randomizers, features, and premium Theme Packs
+are outside the base purchase. Contact support@blackridgeit.net.
+No 24/7 availability or specific response-time guarantee is given.
+
+7. DIGITAL-SOFTWARE REFUNDS AND REJECTION OF TERMS
+
+If You reject this Agreement, do not activate or use the Software.
+For an Authorized Purchase, if You request a refund within 14 calendar
+days after purchase and before successful activation, BlackRidge will
+approve a refund for rejection of these terms and assist with its
+processing through the applicable merchant of record. Send the order
+reference to support@blackridgeit.net or use the purchase provider's
+refund-request channel. Payment processing and refund timing are
+administered by the purchase provider.
+
+For delivery defects, inability to activate a legitimate purchase,
+material Software problems, or duplicate purchases, contact support
+with Your order reference. BlackRidge will review the issue and offer
+reasonable correction, replacement, support, or an appropriate refund.
+These are the ordinary contractual remedies for Software defects,
+subject to applicable consumer rights and the merchant's terms. A
+change-of-mind refund after successful delivery and activation is not
+automatic under BlackRidge's voluntary policy.
+
+The authorized merchant of record may issue refunds or reverse
+transactions under its own purchase terms or applicable law, including
+where its policy is more generous. This Agreement does not limit any
+statutory refund, cancellation, withdrawal, warranty, or other rights
+that cannot legally be waived. If a purchase is fully refunded,
+charged back, or reversed, the license for that purchase terminates
+to the extent legally permitted; You must stop using that copy.
+
+8. WARRANTY DISCLAIMER, LIMITATION OF LIABILITY, AND RISK
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE IS
+PROVIDED "AS IS" AND "AS AVAILABLE." BLACKRIDGE DISCLAIMS IMPLIED
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
+AND NON-INFRINGEMENT, AND DOES NOT GUARANTEE ERROR-FREE OPERATION,
+UNINTERRUPTED BROADCASTING, OR ACCURATE THIRD-PARTY INPUT DATA.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, BLACKRIDGE SHALL
+NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR
+PUNITIVE DAMAGES, INCLUDING LOST PROFITS, LOST SALES, LOST DATA,
+BUSINESS INTERRUPTION, OR LOSSES FROM AN INCORRECT BROADCAST DISPLAY,
+EVEN IF ADVISED THAT SUCH LOSSES WERE POSSIBLE.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, BLACKRIDGE'S TOTAL
+AGGREGATE LIABILITY ARISING OUT OF OR RELATING TO THE SOFTWARE OR
+THIS AGREEMENT, REGARDLESS OF THE LEGAL THEORY, WILL NOT EXCEED THE
+AMOUNT ACTUALLY PAID FOR THE SOFTWARE LICENSE GIVING RISE TO THE CLAIM.
+
+NOTHING IN THIS SECTION EXCLUDES OR RESTRICTS LIABILITY, WARRANTIES,
+REMEDIES, OR OTHER RIGHTS THAT CANNOT LEGALLY BE EXCLUDED OR LIMITED.
+THE CORRECTION, REPLACEMENT, AND REFUND APPROACH IN SECTION 7 DOES
+NOT PURPORT TO REMOVE NON-WAIVABLE REMEDIES.
+
+9. PRIVACY AND LICENSE RECORDS
+
+The Software stores working break data and local activation files in
+Your Windows user profile and does not require an account, telemetry,
+cloud sync, or a recurring license heartbeat for ordinary local use.
+BlackRidge receives order details, activation requests, and support
+information when You or the purchase provider supply them for those
+purposes. Activation requests include a derived device-binding value
+and request identifier, not a raw device secret.
+
+The BlackRidge privacy notice for purchase, activation, and support
+data is at:
+https://blackridgeit.net/breaker-board-pro-privacy.html
+
+A merchant of record may separately process payment and buyer data
+under its own privacy notice.
+
+10. TERMINATION AND CONTINUING PROVISIONS
+
+This license automatically terminates, to the extent permitted by
+applicable law, if You materially breach the restrictions in Section 3
+or the Authorized Purchase is fully refunded or reversed. Upon
+termination, stop using the Software and delete working copies, except
+for records that law requires You to keep. BlackRidge may consider
+reinstatement after a remediable breach is cured and verified.
+
+The provisions on retained intellectual-property ownership, customer
+data and artwork responsibility, accrued payment/refund obligations,
+warranty and liability limitations, privacy and records, governing
+law, and dispute-related terms survive termination to the extent
+applicable. Termination does not remove non-waivable legal rights.
+
+11. GOVERNING LAW, SEVERABILITY, AND ASSIGNMENT
+
+To the extent permitted by applicable law, Arkansas law governs this
+Agreement, without regard to conflict-of-law rules. This provision
+does not remove mandatory consumer protections that apply at Your
+place of residence or purchase. This Agreement does not impose an
+exclusive county-specific court venue.
+
+If a provision is unenforceable, the remaining provisions continue
+to apply to the extent legally possible. BlackRidge may assign this
+Agreement in connection with a sale, reorganization, or transfer of
+the Software or its business, while preserving existing customer
+license rights. You may not transfer the license to another person
+or business except as BlackRidge expressly agrees in writing or as
+applicable law requires.
+
+12. VERSIONED TERMS AND ENTIRE AGREEMENT
+
+License Version 1.0 applies to Authorized Purchases made on or after
+the Effective Date unless the customer separately accepts a later
+agreement. Revised license terms apply to new purchases or separately
+accepted upgrades, not automatically or retroactively to an existing
+perpetual v1 license. A separate written agreement expressly approved
+by BlackRidge may control for a specific purchase. This Agreement
+governs use of the Software; a merchant of record's buyer terms govern
+its distinct payment transaction. Mandatory consumer rights remain
+unaffected.
+
+Licensor: BlackRidge LLC, doing business as BlackRidge IT
+Software and activation support: support@blackridgeit.net
